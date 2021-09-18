@@ -1,0 +1,217 @@
+.main {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.title-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#first-part {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation-bar */
+#tindog {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#bar {
+  margin: 0 0 4.5rem;
+}
+
+#item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* dog imgame */
+.dog-img {
+  margin-left: 30%;
+  margin-top: -8%;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature {
+  position: relative;
+  display: inline;
+}
+
+.feature-box {
+  font-size: 14px;
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-spe {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.description {
+  color: grey;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials section */
+#testimonials {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#dog-into {
+  margin: auto 10% auto 10%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.plan {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.dog-type {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7%, 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+}
+
+.call-txt {
+  color: white;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+p {
+  color: grey;
+  font-size: 14px;
+}
+
+#tags {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  .title-mid {
+    text-align: center;
+  }
+
+  .dog-img {
+    position: static;
+    transform: rotate(0);
+    margin-top: 10px;
+    margin-left: 20%;
+  }
+
+  .title-text {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .plan {
+    font-size: 2rem;
+  }
+
+  #download {
+    text-align: center;
+  }
+
+  .call-txt {
+    color: white;
+    line-height: 1.5;
+    font-size: 2rem;
+  }
+
+  #dog-into {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+}
